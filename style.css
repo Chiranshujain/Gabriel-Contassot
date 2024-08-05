@@ -1,0 +1,187 @@
+@font-face {
+    font-family: Gabriel;
+    src: url(/assets/MonumentExtended-Regular.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gabriel;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.d-flex-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loader{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100vh;
+    gap: 1vw;
+    justify-content: start;
+    background-color: black;
+    z-index: 9;
+}
+
+.text-loader {
+    font-size: 1.5rem;
+    opacity: 0;
+}
+
+.text-20{
+    margin-left: 4vw;
+}
+
+.text-23{
+    margin-left: 1.5vw;
+}
+
+.text-30{
+    margin-left: 4vw;
+}
+
+.text-63{
+    margin-left: 20vw;
+}
+
+.text-70{
+    margin-left: 3.5vw;
+}
+
+.text-87{
+    margin-left: 8.5vw;
+}
+
+.text-100{
+    margin-left: 6.9vw;
+}
+
+.fixed-p {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.fixed-p-content{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+
+.cntr-p, .cntr-p-2, .cntr-p-3{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 999;
+    font-size: 1rem;
+}
+
+.nav {
+    display: flex;
+    margin-top: 4vh;
+    justify-content: space-between;
+}
+
+.info{
+    text-decoration: none;
+    color: #fff;
+    z-index: 999;
+}
+
+.contact{
+    text-decoration: none;
+    color: #fff;
+    z-index: 999;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    letter-spacing: 15px;
+    font-weight: 100;
+}
+
+.heading-text {
+    font-size: 8rem;
+}
+
+#one-text{
+    position: absolute;
+    top: 120%;
+}
+
+.section-img {
+    position: relative;
+    margin-left: 35%;
+    width: 30%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+#img-1{
+    background-image: url(https://cdn.sanity.io/images/mbttrbyl/production/b29b7a5b46a3c7ecee2ea8a2f6eddc24c0b41bc0-2880x3060.jpg?h=1080&q=100&auto=format);
+}
+
+#img-2{
+    background-image: url(https://cdn.sanity.io/images/mbttrbyl/production/ef3e1575c2c83d455d48d0cece290e2af704f5b7-2000x2500.jpg?h=1080&q=60&auto=format);
+}
+
+#img-3{
+    background-image: url(https://cdn.sanity.io/images/mbttrbyl/production/947b09129d093a71b27c670a366038159da4c03d-1000x1250.jpg?h=1080&q=60&auto=format);
+}
+
+#img-4{
+    background-image: url(https://cdn.sanity.io/images/mbttrbyl/production/ca3bae94469a74660456f1e8ab395104446eb394-2000x2500.jpg?h=1080&q=60&auto=format);
+}
+
+#img-5{
+    background-image: url(https://cdn.sanity.io/images/mbttrbyl/production/48404a0139bd362614834f55025a6aef8caa4b58-2000x2500.jpg?h=1080&q=60&auto=format);
+}
+
+#img-6{
+    background-image: url(https://cdn.sanity.io/images/mbttrbyl/production/704e277065144efc4dc942cf409a1c1bce105f61-2000x2500.jpg?h=1080&q=60&auto=format);
+}
+
+#img-7{
+    background-image: url(https://cdn.sanity.io/images/mbttrbyl/production/c3f31ae29a626f9b779f8b29ad642166be277755-2000x2500.jpg?h=1080&q=60&auto=format);
+}
+
+.scroll-2{
+    margin-left: 42%;
+    position: absolute;
+    bottom: 0%;
+    opacity: 1;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+}
+
+.scroll-2 hr {
+    width: 100%;
+}
